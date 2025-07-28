@@ -6,8 +6,6 @@ name: Workflow de Integração Contínua
 # Define em que situação o workflow será chamado
 on: 
   pull_request:
-    paths:
-    - 'allbooks/allbooks-aula-01'
     branches: [ "main" ]
     
 # Ações que serão executadas quando o workflow for ativado
@@ -30,4 +28,3 @@ jobs:
     - run: npm install
       working-directory: allboooks/allbooks-aula-01
     - run: npm test
-      working-directory: allboooks/allbooks-aula-01
