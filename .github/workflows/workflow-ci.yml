@@ -28,3 +28,4 @@ jobs:
     - run: npm install
       working-directory: allboooks/allbooks-aula-01
     - run: npm test
+      working-directory: allboooks/allbooks-aula-01
