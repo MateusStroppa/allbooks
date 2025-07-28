@@ -26,6 +26,6 @@ jobs:
     #Define qual a major version do node que queremos utilizar
         node-version: 22.
     - run: npm install
-      working-directory: allboooks/allbooks-aula-01
+      working-directory: allbooks/allbooks-aula-01
     - run: npm test
-      working-directory: allboooks/allbooks-aula-01
+      working-directory: allbooks/allbooks-aula-01
